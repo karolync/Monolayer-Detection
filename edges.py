@@ -101,13 +101,16 @@ def main():
 
  
         #account for unevenness in lighting
-        ic.IC_StartLive(hGrabber, 1)
+
         kernel = np.zeros(video_format)
         take_blank = input("Press 1 to take a new image of a blank background, and Enter if blank.jpg already exists and you want to use it")
         if (take_blank == '1'):
+            ic.IC_StartLive(hGrabber, 1)
             done = input("Place a white background in view and press Enter to continue")
             if ic.IC_SnapImage(hGrabber, 2000) == tis.IC_SUCCESS:
                 ic.IC_SaveImage(hGrabber, tis.T("blank.jpg"), tis.ImageFileTypes['JPEG'],90)
+        else:
+            ic.IC_StartLive(hGrabber, 1)
         blank = cv2.imread("blank.jpg", 0)
         kernel = np.max(blank) - blank
 
