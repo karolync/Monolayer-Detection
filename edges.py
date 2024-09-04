@@ -7,7 +7,6 @@ import tisgrabber as tis
 import cv2
 import numpy as np
 import math
-from scipy import stats
 from ultralytics import YOLO
 clr.AddReference("C:\\Program Files\\Thorlabs\\Kinesis\\Thorlabs.MotionControl.DeviceManagerCLI.dll")
 clr.AddReference("C:\\Program Files\\Thorlabs\\Kinesis\\Thorlabs.MotionControl.GenericMotorCLI.dll")
