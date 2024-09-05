@@ -7,7 +7,7 @@ tisgrabber.py, tisgrabber_x64.dll, and TIS_UDSHL11_x64.dll in the versions used 
 From Thorlabs Kinesis package, which should be installed in C:/Porgram Files/Thorlabs/Kinesis):
 - Thorlabs.MotionControl.DeviceManageCLI.dll
 - Thorlabs.MotionControl.GenericMotorCLI.dll
-- ThorLabs.MotionControlBenchtop.BrushlessMotorCLI.dll
+- Thorlabs.MotionControlBenchtop.BrushlessMotorCLI.dll
 
 ### Python libraries that need to be installed:
 - ultralytics and all dependencies(Pytorch version 2.4.0 does not work on Windows, a lower version like 2.3.1 works)
