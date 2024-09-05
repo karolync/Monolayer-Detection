@@ -2,7 +2,7 @@
 ## Dependencies
 edges.py is the primary program.
 ### Camera: 
-tisgrabber.py and tisgrabber_x64.dll in the versions used here: https://github.com/TheImagingSource/IC-Imaging-Control-Samples/tree/master/Python/tisgrabber/samples
+tisgrabber.py, tisgrabber_x64.dll, and TIS_UDSHL11_x64.dll in the versions used here: https://github.com/TheImagingSource/IC-Imaging-Control-Samples/tree/master/Python/tisgrabber/samples
 ### Motor (BDD 202): 
 From Thorlabs Kinesis package, which should be installed in C:/Porgram Files/Thorlabs/Kinesis):
 - Thorlabs.MotionControl.DeviceManageCLI.dll
