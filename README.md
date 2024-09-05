@@ -13,7 +13,7 @@ From Thorlabs Kinesis package, which should be installed in C:/Porgram Files/Tho
 - ultralytics and all dependencies(Pytorch version 2.4.0 does not work on Windows, a lower version like 2.3.1 works)
   - libomp140x86_64.dll was missing in pytorch installation - usually fixed by installing C++ build tools on an updated version of Visual Studio
 - pythonnet
-## Model Weights:
+### Model Weights:
 best.pt: weights from a pretrained YOLO model
 
 ## Usage:
