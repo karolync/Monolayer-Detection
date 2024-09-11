@@ -25,7 +25,7 @@ edges.py is the primary program
 - A live video feed will pop up on the screen
 - The program first asks the user to take a picture of a blank background: this only needs to be done once per setup (can skip by pressing Enter)
 - The program then asks the user to place the bottom right corner of the chip in view of the camera
-  - This assumes the camera is set up so that moving the motor to the right wll move the view of the camera to the right as well (looks like chip moves to the left)
+  - This assumes the camera is set up so that moving the motor to the right will move the view of the camera to the right as well (looks like chip moves to the left)
   - The motor moves to the right as its first move, so the edge should still be visible after this move
 - The program scans the chip, and saves the motor position of the bottom right corner, as well as the positions of all found monolayers, in output.txt
 - output.txt is overwritten every time the program is run
