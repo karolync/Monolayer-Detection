@@ -3,7 +3,7 @@
 ### Camera: 
 tisgrabber.py, tisgrabber_x64.dll, and TIS_UDSHL11_x64.dll in the versions used here: https://github.com/TheImagingSource/IC-Imaging-Control-Samples/tree/master/Python/tisgrabber/samples
 ### Motor (BDD 202): 
-From Thorlabs Kinesis package, which should be installed in C:/Program Files/Thorlabs/Kinesis):
+From Thorlabs Kinesis package, which should be installed in C:/Program Files/Thorlabs/Kinesis:
 - Thorlabs.MotionControl.DeviceManageCLI.dll
 - Thorlabs.MotionControl.GenericMotorCLI.dll
 - Thorlabs.MotionControlBenchtop.BrushlessMotorCLI.dll
